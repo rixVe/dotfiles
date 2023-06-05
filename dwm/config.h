@@ -43,11 +43,12 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       1 << 3,            0,           -1 },
-	{ "discord",  NULL,       NULL,       1 << 2,            0,           -1 },
-	/* { "Brave",    NULL,       NULL,       1 << 0,            0,           -1 }, */
+	{ "Gimp",     NULL,       NULL,       1 << 3,            0,          -1 },
+	{ "discord",  NULL,       NULL,       1 << 0,            0,           1 },
+	{ NULL,   "brave-browser",NULL,       1 << 2,            0,           -1 },
 	/* { "Spotify",  NULL,       NULL,       1 << 1,            0,           -1 }, */
-	{ "obs",      NULL,       NULL,       1 << 4,            0,           -1 },
+	{ "obs",      NULL,       NULL,       1 << 4,            0,          -1 },
+	{ NULL,       NULL,   "YouTube Music",1 << 1,            0,           -1 },
 };
 
 /* layout(s) */
@@ -86,7 +87,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      spawn,          SHCMD("discord --enable-gpu-rasterization") },
 	{ MODKEY,                       XK_n,      spawn,          SHCMD("pcmanfm") },
 	{ MODKEY,                       XK_c,      spawn,          SHCMD("caprine") },
-	{ MODKEY,                       XK_a,      spawn,          SHCMD("spotify") },
+	{ MODKEY,                       XK_a,      spawn,          SHCMD("gtk-launch ytm.desktop") },
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("brave") },
 	{ MODKEY,                       XK_g,      spawn,          SHCMD("gimp") },
 	{ MODKEY,                       XK_m,      spawn,          SHCMD("pavucontrol") },
