@@ -1,0 +1,5 @@
+dwm.c in function clientmessage paste this before the XReparentWindow line
+
+
+XClassHint ch = {"dwmsystray", "dwmsystray"};
+XSetClassHint(dpy, c->win, &ch);
