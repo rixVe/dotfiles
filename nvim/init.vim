@@ -18,7 +18,6 @@ Plug 'tpope/vim-commentary'
 
 Plug 'preservim/tagbar'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'bfrg/vim-cpp-modern'
 Plug 'ryanoasis/vim-devicons'
 
@@ -54,7 +53,6 @@ let g:syntastic_check_on_wq = -1
 
 set laststatus=2
 let g:airline_powerline_fonts = 1
-let g:airline_theme='gruvbox'
 set noshowmode
 
 set background=dark
@@ -67,9 +65,7 @@ highlight nonText ctermbg=NONE
 " lua << EOF
 " require("catppuccin").setup()
 " EOF
-colorscheme gruvbox
 
 tnoremap <Esc> <C-\><C-n>
 nnoremap <C-t> :tabe term://fish<CR>
 
-source $HOME/.config/nvim/plug-config/coc.vim

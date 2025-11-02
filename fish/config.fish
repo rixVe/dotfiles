@@ -16,7 +16,7 @@ export PF_INFO="title os kernel host wm de uptime pkgs memory editor shell palet
 export PF_ALIGN=8
 export PF_SEP=""
 
-pfetch
+fastfetch --logo-type none 
 
 function fish_mode_prompt
 end
