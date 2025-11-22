@@ -21,6 +21,8 @@ Plug 'preservim/tagbar'
 Plug 'bfrg/vim-cpp-modern'
 Plug 'ryanoasis/vim-devicons'
 
+Plug 'kaarmu/typst.vim'
+
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 

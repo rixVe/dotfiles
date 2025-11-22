@@ -1,7 +1,6 @@
-[main]
 enable_esc_key = true
 [modules]
-left = [ [ "Workspaces" ], "MediaPlayer"]
+left = [ [ "Workspaces" ]]
 center = [ "WindowTitle" ]
 right = [ "Tray", "SystemInfo", [   "Clock", "Privacy", "Settings" ] ]
 [workspaces]
