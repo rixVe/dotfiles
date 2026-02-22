@@ -3,6 +3,7 @@ if status is-interactive
 end
 set fish_greeting
 alias v="nvim"
+alias hx="helix"
 alias extract="sh extract.sh"
 
 export EDITOR="nvim"
@@ -16,7 +17,7 @@ export PF_INFO="title os kernel host wm de uptime pkgs memory editor shell palet
 export PF_ALIGN=8
 export PF_SEP=""
 
-fastfetch --logo-type none 
+fastfetch --logo-type small
 
 function fish_mode_prompt
 end

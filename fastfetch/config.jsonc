@@ -6,13 +6,13 @@
     "os",
     "host",
     "kernel",
-    "uptime",
     "packages",
-    "shell",
+    "de",
     "wm",
     "terminal",
     "cpu",
     "memory",
-    "break"
+    "break",
+    "colors"
   ]
 }
