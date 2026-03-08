@@ -17,8 +17,6 @@ export PF_INFO="title os kernel host wm de uptime pkgs memory editor shell palet
 export PF_ALIGN=8
 export PF_SEP=""
 
-fastfetch --logo-type small
-
 function fish_mode_prompt
 end
 export TERM="xterm-256color"

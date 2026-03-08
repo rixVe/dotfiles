@@ -1,2 +1,2 @@
-[terminal.shell]
-program = "/bin/fish"
+[terminal]
+shell = { program = "/bin/fish", args = ["--init-command", "fastfetch --logo-type small"] }
