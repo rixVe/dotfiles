@@ -6,7 +6,7 @@ alias v="nvim"
 alias hx="helix"
 alias extract="sh extract.sh"
 
-export EDITOR="nvim"
+export EDITOR="helix"
 export SHELL="/bin/fish"
 
 export PF_COL1=3
@@ -20,3 +20,4 @@ export PF_SEP=""
 function fish_mode_prompt
 end
 export TERM="xterm-256color"
+fish_vi_key_bindings

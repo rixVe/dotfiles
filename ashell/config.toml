@@ -1,12 +1,15 @@
 enable_esc_key = true
+
 [modules]
-left = [ [ "Workspaces" ]]
+left = [ [ "Workspaces"], ["MediaPlayer" ]]
 center = [ "WindowTitle" ]
-right = [ "Tray", "SystemInfo", [   "Clock", "Privacy", "Settings" ] ]
+right = [ "Tray", "SystemInfo", [   "Clock"],[ "Privacy", "Settings" ] ]
+
 [workspaces]
 visibility_mode = "All"
 enable_workspace_filling = true
 max_workspaces = 10
+
 [settings]
 shutdown_cmd = "shutdown now"
 suspend_cmd = "systemctl suspend"
@@ -15,10 +18,12 @@ logout_cmd = "loginctl kill-user $(whoami)"
 wifi_more_cmd = "alacritty -e nmtui"
 bluetooth_more_cmd = "blueman-manager"
 audio_sinks_more_cmd = "pavucontrol"
+brightness_indicator_format = "IconAndPercentage"
+
 [appearance]
 scale_factor = 1
 style = "Solid"
-opacity = 0.9
+opacity = 0.8
 font_name = "Roboto Mono"
 font_size = 25
 
@@ -39,4 +44,8 @@ strong = "#414868"
 
 [appearance.secondary_color]
 base = "#0c0d14"
+
+[media_player]
+max_title_length = 50
+indicator_format = "IconAndTitle"
 
