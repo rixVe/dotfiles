@@ -21,3 +21,4 @@ function fish_mode_prompt
 end
 export TERM="xterm-256color"
 fish_vi_key_bindings
+alias gittree="git log --all --topo-order --graph --show-signature"
