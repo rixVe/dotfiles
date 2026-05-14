@@ -3,3 +3,5 @@ theme = "dark_plus"
 insert = "bar"
 normal = "block"
 select = "underline"
+[editor.soft-wrap]
+enable = true
